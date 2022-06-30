@@ -4,11 +4,7 @@ import Script from 'next/script';
 export default function Home() {
   return (
     <div>
-        <Script src='/public/plugins/jquery/jquery.min.js' />
-        <Script src='/plugins/bootstrap/bootstrap.bundle.min.js'/>
-        <Script src='/plugins/swiper/swiper-bundle.min.js'/>
-        <Script src='/plugins/isotope/isotope.min.js'/>
-        <Script src='/assets/js/script.js'/>
+
       <Head>
         <meta charset='utf-8' />
         <meta
@@ -28,10 +24,13 @@ export default function Home() {
         <link rel='stylesheet' href='/plugins/swiper/swiper-bundle.min.css' />
 
         <link href='/assets/css/style.css' rel='stylesheet' />
-
+        <script src='/public/plugins/jquery/jquery.min.js' />
+        <script src='/plugins/bootstrap/bootstrap.bundle.min.js'/>
+        <script src='/plugins/swiper/swiper-bundle.min.js'/>
+        <script src='/plugins/isotope/isotope.min.js'/>
+        <script src='/assets/js/script.js'/>
       </Head>
 
-      <main>
         <body>
           <div className='scroll-progress cursor-pointer'>
             <svg
@@ -1386,7 +1385,6 @@ style={{backgroundColor:"#E08100"}}
             </div>
           </section>
         </body>
-      </main>
     </div>
   );
 }
